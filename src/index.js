@@ -47,8 +47,7 @@ const EndPage = ()=> (
 
 
 const ImageBox = ({state})=> (
-    <div>
-        <img src={`./images/${state.images[state.index]}`} height="100%" />
+    <div id="image_box" style={{backgroundImage: `url("./images/${state.images[state.index]}")`}}>
     </div>
 )
 

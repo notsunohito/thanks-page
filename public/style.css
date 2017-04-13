@@ -36,6 +36,13 @@ body {
     width: 70vw;
 }
 
+#image_box {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #end_page {
     position: absolute;
     width: 100vw;
